@@ -41,14 +41,16 @@ provider "auth0" {
   #     alg = "RS256"
   #   }
 #}
-resource "auth0_user" "latest_user222" {
-  #   name            = "Test User"
-  email           = "latest_user2@gmail.com"
-  user_id         = "1234562"
-  connection_name = "Username-Password-Authentication"
-  password        = "secret1232@"
-  email_verified  = true
-}
+
+
+# resource "auth0_user" "latest_user222" {
+#   #   name            = "Test User"
+#   email           = "latest_user2@gmail.com"
+#   user_id         = "1234562"
+#   connection_name = "Username-Password-Authentication"
+#   password        = "secret1232@"
+#   email_verified  = true
+# }
 
 
 
