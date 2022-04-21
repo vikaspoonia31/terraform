@@ -10,7 +10,7 @@ resource "auth0_client" "terraform-secure-express" {
   }
 }
 
-resource "auth0_client" "terraform-secure-express" {
+resource "auth0_client" "terraform-secure-express2" {
   name            = "My Web Demo App 2"
   description     = "App for running testing 2"
   app_type        = "regular_web"
