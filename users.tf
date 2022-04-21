@@ -19,13 +19,13 @@ provider "auth0" {
   client_secret = var.auth0_client_secret
 }
 
- resource "auth0_user" "newuser" {
-   #   name            = "Test User"
-   email           = "john.doe@gmail.com"
-   user_id         = "abc"
-   connection_name = "Username-Password-Authentication"
-   password        = "secret123@"
-   email_verified  = false
+#  resource "auth0_user" "newuser" {
+#    #   name            = "Test User"
+#    email           = "john.doe@gmail.com"
+#    user_id         = "abc"
+#    connection_name = "Username-Password-Authentication"
+#    password        = "secret123@"
+#    email_verified  = false
   #   username="johndoe"
   # connection_name = auth0_connection.terraform-express-user-db.name
   #  user_id         = "12345"
@@ -50,7 +50,7 @@ provider "auth0" {
 #   connection_name = "Username-Password-Authentication"
 #   password        = "secret1232@"
 #   email_verified  = true
-}
+#}
 
 
 
